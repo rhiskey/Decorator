@@ -16,6 +16,11 @@
 		5BF11D7027AA8F140052019C /* DecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11D6F27AA8F140052019C /* DecoratorTests.swift */; };
 		5BF11D7A27AA8F140052019C /* DecoratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11D7927AA8F140052019C /* DecoratorUITests.swift */; };
 		5BF11D7C27AA8F140052019C /* DecoratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11D7B27AA8F140052019C /* DecoratorUITestsLaunchTests.swift */; };
+		5BF11D8927AA90780052019C /* CarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11D8827AA90780052019C /* CarProtocol.swift */; };
+		5BF11D8B27AA90AF0052019C /* MercedesCLA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11D8A27AA90AF0052019C /* MercedesCLA.swift */; };
+		5BF11D8E27AA91030052019C /* MercedesDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11D8D27AA91030052019C /* MercedesDecorator.swift */; };
+		5BF11D9127AA91CC0052019C /* PanframeRoof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11D9027AA91CC0052019C /* PanframeRoof.swift */; };
+		5BF11D9327AA92430052019C /* AlloyWheels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11D9227AA92430052019C /* AlloyWheels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		5BF11D7527AA8F140052019C /* DecoratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF11D7927AA8F140052019C /* DecoratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorUITests.swift; sourceTree = "<group>"; };
 		5BF11D7B27AA8F140052019C /* DecoratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF11D8827AA90780052019C /* CarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarProtocol.swift; sourceTree = "<group>"; };
+		5BF11D8A27AA90AF0052019C /* MercedesCLA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesCLA.swift; sourceTree = "<group>"; };
+		5BF11D8D27AA91030052019C /* MercedesDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesDecorator.swift; sourceTree = "<group>"; };
+		5BF11D9027AA91CC0052019C /* PanframeRoof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanframeRoof.swift; sourceTree = "<group>"; };
+		5BF11D9227AA92430052019C /* AlloyWheels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlloyWheels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,8 @@
 				5BF11D6127AA8F140052019C /* Assets.xcassets */,
 				5BF11D6327AA8F140052019C /* LaunchScreen.storyboard */,
 				5BF11D6627AA8F140052019C /* Info.plist */,
+				5BF11D8C27AA90F30052019C /* Car */,
+				5BF11D8F27AA91060052019C /* Decorator */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -125,6 +137,25 @@
 				5BF11D7B27AA8F140052019C /* DecoratorUITestsLaunchTests.swift */,
 			);
 			path = DecoratorUITests;
+			sourceTree = "<group>";
+		};
+		5BF11D8C27AA90F30052019C /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				5BF11D8827AA90780052019C /* CarProtocol.swift */,
+				5BF11D8A27AA90AF0052019C /* MercedesCLA.swift */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		5BF11D8F27AA91060052019C /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				5BF11D8D27AA91030052019C /* MercedesDecorator.swift */,
+				5BF11D9027AA91CC0052019C /* PanframeRoof.swift */,
+				5BF11D9227AA92430052019C /* AlloyWheels.swift */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +291,12 @@
 			files = (
 				5BF11D5D27AA8F130052019C /* ViewController.swift in Sources */,
 				5BF11D5927AA8F130052019C /* AppDelegate.swift in Sources */,
+				5BF11D9127AA91CC0052019C /* PanframeRoof.swift in Sources */,
 				5BF11D5B27AA8F130052019C /* SceneDelegate.swift in Sources */,
+				5BF11D8E27AA91030052019C /* MercedesDecorator.swift in Sources */,
+				5BF11D9327AA92430052019C /* AlloyWheels.swift in Sources */,
+				5BF11D8B27AA90AF0052019C /* MercedesCLA.swift in Sources */,
+				5BF11D8927AA90780052019C /* CarProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
